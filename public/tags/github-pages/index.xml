@@ -32,6 +32,7 @@
 &lt;li&gt;🎨 &lt;strong&gt;美观&lt;/strong&gt; - 简洁现代的设计，支持深色模式&lt;/li&gt;
 &lt;li&gt;📱 &lt;strong&gt;响应式&lt;/strong&gt; - 完美适配手机、平板、电脑&lt;/li&gt;
 &lt;li&gt;🏷️ &lt;strong&gt;标签系统&lt;/strong&gt; - 文章可以添加标签，方便分类浏览&lt;/li&gt;
+&lt;li&gt;📂 &lt;strong&gt;分类归档&lt;/strong&gt; - 文章可按分类归类，便于查找&lt;/li&gt;
 &lt;li&gt;🆓 &lt;strong&gt;免费&lt;/strong&gt; - GitHub Pages 免费托管&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="技术栈"&gt;技术栈&lt;/h2&gt;
@@ -43,11 +44,12 @@
 &lt;h2 id="开始写作"&gt;开始写作&lt;/h2&gt;
 &lt;p&gt;创建新文章非常简单：&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo new content posts/文章标题.md
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后编辑文章，添加标签：&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后编辑文章，添加分类和标签：&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;---
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;title&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;文章标题&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;date&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;2026-03-18T12:00:00&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;+08&lt;/span&gt;:&lt;span style="color:#ae81ff"&gt;00&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;draft&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;false&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;tags&lt;/span&gt;: [&lt;span style="color:#e6db74"&gt;&amp;#34;标签1&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;标签2&amp;#34;&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;categories&lt;/span&gt;: [&lt;span style="color:#e6db74"&gt;&amp;#34;技术&amp;#34;&lt;/span&gt;] &lt;span style="color:#75715e"&gt;# 分类&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;tags&lt;/span&gt;: [&lt;span style="color:#e6db74"&gt;&amp;#34;hugo&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;教程&amp;#34;&lt;/span&gt;] &lt;span style="color:#75715e"&gt;# 标签&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;---
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;感谢你的访问！欢迎常来看看 👋&lt;/p&gt;</description></item></channel></rss>

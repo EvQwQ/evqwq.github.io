@@ -8,6 +8,21 @@
 </div>
 
 <div class="container">
+    <!-- 分类快速导航 -->
+    {{ $categories := .Site.Taxonomies.categories }}
+    {{ if $categories }}
+    <div class="category-nav" style="margin-bottom: 2rem;">
+        <h2 style="font-size: 1rem; color: var(--text-secondary); margin-bottom: 0.75rem;">📂 文章分类</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem;">
+            {{ range $categories }}
+            <a href="{{ .Page.RelPermalink }}" class="tag" style="font-size: 0.875rem;">
+                {{ .Page.Title }} ({{ .Count }})
+            </a>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+    
     {{ $posts := where .Site.RegularPages "Type" "posts" }}
     {{ if $posts }}
     <div class="section-header">
@@ -20,9 +35,21 @@
             <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
             <div class="meta">
                 <time>{{ .Date.Format "2006年1月2日" }}</time>
+                
+                <!-- 分类 -->
+                {{ if .Params.categories }}
+                <div class="categories" style="display: inline-flex; gap: 0.5rem;">
+                    {{ range .Params.categories }}
+                    <a href="{{ "/categories/" | relURL }}{{ . | urlize }}" class="tag" 
+                       style="background: var(--primary-color); color: white; font-size: 0.75rem;">{{ . }}</a>
+                    {{ end }}
+                </div>
+                {{ end }}
+                
+                <!-- 标签 -->
                 {{ if .Params.tags }}
                 <div class="tags">
-                    {{ range first 3 .Params.tags }}
+                    {{ range first 2 .Params.tags }}
                     <span class="tag">{{ . }}</span>
                     {{ end }}
                 </div>

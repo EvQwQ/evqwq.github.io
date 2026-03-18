@@ -2,7 +2,8 @@
 title: "Markdown 写作指南"
 date: 2026-03-18T13:35:00+08:00
 draft: false
-tags: ["markdown", "写作", "教程"]
+categories: ["教程"]
+tags: ["markdown", "写作"]
 ---
 
 Markdown 是一种轻量级标记语言，让你专注于写作而不是排版。

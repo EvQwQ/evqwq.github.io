@@ -2,7 +2,8 @@
 title: "欢迎来到我的博客"
 date: 2026-03-18T11:00:00+08:00
 draft: false
-tags: ["hugo", "博客", "github-pages"]
+categories: ["博客"]
+tags: ["hugo", "github-pages"]
 ---
 
 你好！这是我的第一篇博客文章。
@@ -15,6 +16,7 @@ tags: ["hugo", "博客", "github-pages"]
 - 🎨 **美观** - 简洁现代的设计，支持深色模式
 - 📱 **响应式** - 完美适配手机、平板、电脑
 - 🏷️ **标签系统** - 文章可以添加标签，方便分类浏览
+- 📂 **分类归档** - 文章可按分类归类，便于查找
 - 🆓 **免费** - GitHub Pages 免费托管
 
 ## 技术栈
@@ -31,14 +33,15 @@ tags: ["hugo", "博客", "github-pages"]
 hugo new content posts/文章标题.md
 ```
 
-然后编辑文章，添加标签：
+然后编辑文章，添加分类和标签：
 
 ```yaml
 ---
 title: "文章标题"
 date: 2026-03-18T12:00:00+08:00
 draft: false
-tags: ["标签1", "标签2"]
+categories: ["技术"]  # 分类
+tags: ["hugo", "教程"]  # 标签
 ---
 ```
 

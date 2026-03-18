@@ -2,7 +2,8 @@
 title: "如何搭建 Hugo 博客"
 date: 2026-03-18T13:30:00+08:00
 draft: false
-tags: ["hugo", "教程", "github-pages"]
+categories: ["技术", "教程"]
+tags: ["hugo", "github-pages"]
 ---
 
 本文将详细介绍如何使用 Hugo 搭建一个漂亮的博客，并部署到 GitHub Pages。
