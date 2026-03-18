@@ -1,11 +1,10 @@
 {{ define "main" }}
 <div class="hero">
+    {{ if .Site.Params.avatar }}
+    <img src="{{ .Site.Params.avatar }}" alt="{{ .Site.Params.author }}" class="avatar">
+    {{ end }}
     <h1>{{ .Site.Title }}</h1>
-    <p>{{ .Site.Params.description }}</p>
-    <div class="cta">
-        <a href="{{ "/posts/" | relURL }}" class="btn btn-primary">浏览文章</a>
-        <a href="{{ "/about/" | relURL }}" class="btn btn-secondary">了解更多</a>
-    </div>
+    <p class="description">{{ .Site.Params.description }}</p>
 </div>
 
 <div class="container">
@@ -13,32 +12,25 @@
     {{ if $posts }}
     <div class="section-header">
         <h2>最新文章</h2>
-        <a href="{{ "/posts/" | relURL }}" class="view-all">查看全部</a>
+        <a href="{{ "/posts/" | relURL }}" class="view-all">查看全部 →</a>
     </div>
     <div class="post-list">
-        {{ range first 6 $posts }}
-        <article class="post-card">
+        {{ range first 5 $posts }}
+        <article class="post-item">
             <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-            <div class="post-meta">
-                <time>{{ .Date.Format "2006-01-02" }}</time>
-                <span class="reading-time">{{ .ReadingTime }} 分钟阅读</span>
-            </div>
-            <p>{{ .Summary | truncate 120 }}</p>
-            {{ if .Params.tags }}
-            <div class="post-tags">
-                {{ range first 3 .Params.tags }}
-                <span class="tag">{{ . }}</span>
+            <div class="meta">
+                <time>{{ .Date.Format "2006年1月2日" }}</time>
+                {{ if .Params.tags }}
+                <div class="tags">
+                    {{ range first 3 .Params.tags }}
+                    <span class="tag">{{ . }}</span>
+                    {{ end }}
+                </div>
                 {{ end }}
             </div>
-            {{ end }}
+            <p>{{ .Summary }}</p>
         </article>
         {{ end }}
-    </div>
-    {{ else }}
-    <div class="empty-state">
-        <div class="empty-state-icon">📝</div>
-        <h2>还没有文章</h2>
-        <p>开始你的写作之旅吧！</p>
     </div>
     {{ end }}
 </div>
