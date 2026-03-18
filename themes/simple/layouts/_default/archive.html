@@ -1,0 +1,42 @@
+{{ define "main" }}
+<div class="container">
+    <h1>📅 文章归档</h1>
+    
+    {{ $posts := where .Site.RegularPages "Type" "posts" }}
+    {{ $grouped := $posts.GroupByDate "2006年" }}
+    
+    <div class="archive-stats" style="margin: 2rem 0; padding: 1.5rem; background: var(--bg-secondary); border-radius: var(--radius-sm);">
+        <p style="margin: 0; font-size: 1.1rem;">
+            共 <strong>{{ len $posts }}</strong> 篇文章
+        </p>
+    </div>
+    
+    {{ range $grouped }}
+    <div class="archive-year" style="margin-bottom: 2rem;">
+        <h2 style="color: var(--primary-color); border-bottom: 2px solid var(--border-color); padding-bottom: 0.5rem;">
+            {{ .Key }} <span style="font-size: 0.6em; color: var(--text-secondary);">({{ len .Pages }} 篇)</span>
+        </h2>
+        
+        <div class="archive-posts" style="margin-left: 1rem;">
+            {{ range .Pages }}
+            <div class="archive-item" style="display: flex; align-items: baseline; padding: 0.75rem 0; border-bottom: 1px dashed var(--border-color);">
+                <time style="color: var(--text-secondary); font-size: 0.875rem; min-width: 80px;">
+                    {{ .Date.Format "01-02" }}
+                </time>
+                <a href="{{ .RelPermalink }}" style="flex: 1; margin-left: 1rem; font-weight: 500;">
+                    {{ .Title }}
+                </a>
+                {{ if .Params.tags }}
+                <div class="tags" style="margin-left: 1rem;">
+                    {{ range first 2 .Params.tags }}
+                    <span class="tag" style="font-size: 0.75rem;">{{ . }}</span>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+</div>
+{{ end }}

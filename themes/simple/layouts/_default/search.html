@@ -1,119 +1,71 @@
 {{ define "main" }}
 <div class="container">
     <h1>🔍 搜索文章</h1>
-    <p style="color: var(--text-secondary); margin-bottom: 2rem;">输入关键词搜索博客内容</p>
     
-    <div style="position: relative; margin-bottom: 2rem;">
+    <div class="search-box" style="margin: 2rem 0;">
         <input type="text" id="search-input" placeholder="输入关键词搜索..." 
-            style="width: 100%; padding: 1rem 1.5rem; font-size: 1.1rem; border: 2px solid var(--border-color); border-radius: var(--radius); outline: none; transition: border-color 0.2s;">
-        <span style="position: absolute; right: 1rem; top: 50%; transform: translateY(-50%); color: var(--text-secondary);">⌘K</span>
+               style="width: 100%; padding: 1rem; font-size: 1rem; border: 2px solid var(--border-color); 
+                      border-radius: var(--radius-sm); background: var(--bg-primary); color: var(--text-primary);">
     </div>
     
-    <div id="search-results" class="post-list"></div>
+    <div id="search-results"></div>
     
-    <div id="search-loading" style="text-align: center; padding: 2rem; display: none;">
-        <span style="font-size: 2rem;">🔍</span>
-        <p>搜索中...</p>
-    </div>
-    
-    <div id="search-empty" style="text-align: center; padding: 3rem; display: none;">
-        <div style="font-size: 4rem; margin-bottom: 1rem;">😕</div>
-        <h3>未找到相关文章</h3>
-        <p style="color: var(--text-secondary);">试试其他关键词</p>
+    <div id="all-posts">
+        <h2>所有文章</h2>
+        <div class="post-list">
+            {{ range where .Site.RegularPages "Type" "posts" }}
+            <article class="post-item" data-title="{{ .Title | lower }}" data-content="{{ .Plain | lower }}">
+                <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+                <div class="meta">
+                    <time>{{ .Date.Format "2006年1月2日" }}</time>
+                    {{ if .Params.tags }}
+                    <div class="tags">
+                        {{ range first 3 .Params.tags }}
+                        <span class="tag">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+                <p>{{ .Summary }}</p>
+            </article>
+            {{ end }}
+        </div>
     </div>
 </div>
 
 <script>
-// 搜索索引数据
-const searchData = [
-    {{ range .Site.RegularPages }}
-    {
-        title: {{ .Title | jsonify }},
-        url: {{ .RelPermalink | jsonify }},
-        summary: {{ .Summary | plainify | truncate 200 | jsonify }},
-        date: {{ .Date.Format "2006-01-02" | jsonify }},
-        tags: {{ .Params.tags | jsonify }},
-        content: {{ .Content | plainify | jsonify }}
-    },
-    {{ end }}
-];
-
-const searchInput = document.getElementById('search-input');
-const searchResults = document.getElementById('search-results');
-const searchLoading = document.getElementById('search-loading');
-const searchEmpty = document.getElementById('search-empty');
-
-function performSearch(query) {
-    if (!query.trim()) {
-        searchResults.innerHTML = '';
-        searchEmpty.style.display = 'none';
+document.getElementById('search-input').addEventListener('input', function(e) {
+    const query = e.target.value.toLowerCase().trim();
+    const posts = document.querySelectorAll('.post-item');
+    const allPostsSection = document.getElementById('all-posts');
+    const resultsDiv = document.getElementById('search-results');
+    
+    if (query === '') {
+        allPostsSection.style.display = 'block';
+        resultsDiv.innerHTML = '';
+        posts.forEach(post => post.style.display = 'block');
         return;
     }
     
-    searchLoading.style.display = 'block';
-    searchEmpty.style.display = 'none';
+    allPostsSection.style.display = 'none';
+    let results = [];
     
-    const lowerQuery = query.toLowerCase();
-    const results = searchData.filter(page => {
-        return page.title.toLowerCase().includes(lowerQuery) ||
-               page.content.toLowerCase().includes(lowerQuery) ||
-               (page.tags && page.tags.some(tag => tag.toLowerCase().includes(lowerQuery)));
+    posts.forEach(post => {
+        const title = post.getAttribute('data-title');
+        const content = post.getAttribute('data-content');
+        
+        if (title.includes(query) || content.includes(query)) {
+            results.push(post.cloneNode(true));
+        }
     });
     
-    searchLoading.style.display = 'none';
-    
     if (results.length === 0) {
-        searchResults.innerHTML = '';
-        searchEmpty.style.display = 'block';
+        resultsDiv.innerHTML = '<p style="text-align: center; color: var(--text-secondary); padding: 2rem;">没有找到相关文章</p>';
     } else {
-        searchEmpty.style.display = 'none';
-        searchResults.innerHTML = results.map(page => `
-            <article class="post-card">
-                <h3><a href="${page.url}">${highlightText(page.title, query)}</a></h3>
-                <div class="post-meta">
-                    <time>${page.date}</time>
-                </div>
-                <p>${highlightText(page.summary, query)}</p>
-                ${page.tags ? `<div class="post-tags">${page.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}</div>` : ''}
-            </article>
-        `).join('');
-    }
-}
-
-function highlightText(text, query) {
-    if (!query) return text;
-    const regex = new RegExp(`(${escapeRegex(query)})`, 'gi');
-    return text.replace(regex, '<mark style="background: #fef08a; padding: 0 2px;">$1</mark>');
-}
-
-function escapeRegex(string) {
-    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-}
-
-// 输入事件
-let debounceTimer;
-searchInput.addEventListener('input', (e) => {
-    clearTimeout(debounceTimer);
-    debounceTimer = setTimeout(() => performSearch(e.target.value), 300);
-});
-
-// 键盘快捷键
-searchInput.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') {
-        searchInput.value = '';
-        performSearch('');
-        searchInput.blur();
+        resultsDiv.innerHTML = '<h2>搜索结果 (' + results.length + ')</h2><div class="post-list"></div>';
+        const list = resultsDiv.querySelector('.post-list');
+        results.forEach(post => list.appendChild(post));
     }
 });
-
-document.addEventListener('keydown', (e) => {
-    if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
-        e.preventDefault();
-        searchInput.focus();
-    }
-});
-
-// 自动聚焦
-searchInput.focus();
 </script>
 {{ end }}

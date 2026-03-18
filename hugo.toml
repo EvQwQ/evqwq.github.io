@@ -24,6 +24,14 @@ theme = 'simple'
     url = '/tags/'
     weight = 30
   [[menu.main]]
+    name = '归档'
+    url = '/archive/'
+    weight = 35
+  [[menu.main]]
+    name = '搜索'
+    url = '/search/'
+    weight = 38
+  [[menu.main]]
     name = '关于'
     url = '/about/'
     weight = 40
