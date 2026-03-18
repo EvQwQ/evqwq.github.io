@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on 我的博客</title><link>https://yourusername.github.io/posts/</link><description>Recent content in Posts on 我的博客</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 18 Mar 2026 11:00:00 +0800</lastBuildDate><atom:link href="https://yourusername.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>欢迎来到我的博客</title><link>https://yourusername.github.io/posts/hello-world/</link><pubDate>Wed, 18 Mar 2026 11:00:00 +0800</pubDate><guid>https://yourusername.github.io/posts/hello-world/</guid><description>&lt;p&gt;你好！这是我的第一篇博客文章。&lt;/p&gt;
+&lt;p&gt;这个博客使用 &lt;a href="https://gohugo.io/"&gt;Hugo&lt;/a&gt; 构建，并托管在 GitHub Pages 上，完全免费！&lt;/p&gt;
+&lt;h2 id="特点"&gt;特点&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;⚡ 超快的生成速度&lt;/li&gt;
+&lt;li&gt;🎨 简洁美观的设计&lt;/li&gt;
+&lt;li&gt;📱 响应式布局，支持移动端&lt;/li&gt;
+&lt;li&gt;🆓 免费托管在 GitHub Pages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="开始写作"&gt;开始写作&lt;/h2&gt;
+&lt;p&gt;你可以使用以下命令创建新文章：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo new content posts/新文章标题.md
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后编辑 &lt;code&gt;content/posts/新文章标题.md&lt;/code&gt; 文件即可。&lt;/p&gt;
+&lt;p&gt;感谢你的访问！&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,22 @@
+baseURL = 'https://yourusername.github.io'
+languageCode = 'zh-CN'
+title = '我的博客'
+theme = 'simple'
+
+[params]
+  author = '作者'
+  description = '一个使用 Hugo 搭建的博客'
+
+[menu]
+  [[menu.main]]
+    name = '首页'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    name = '文章'
+    url = '/posts/'
+    weight = 20
+  [[menu.main]]
+    name = '关于'
+    url = '/about/'
+    weight = 30

@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="container home">
+    <h1>欢迎来到 {{ .Site.Title }}</h1>
+    <p class="description">{{ .Site.Params.description }}</p>
+    
+    {{ $posts := where .Site.RegularPages "Type" "posts" }}
+    {{ if $posts }}
+    <h2>最新文章</h2>
+    <div class="post-list">
+        {{ range first 5 $posts }}
+        <article class="post-item">
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <time>{{ .Date.Format "2006-01-02" }}</time>
+            <p>{{ .Summary }}</p>
+        </article>
+        {{ end }}
+    </div>
+    <p><a href="{{ "/posts/" | relURL }}">查看全部文章 →</a></p>
+    {{ end }}
+</div>
+{{ end }}
