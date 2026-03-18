@@ -1,6 +1,34 @@
 {{ define "main" }}
-<div class="container">
+<article>
+    <div class="article-meta">
+        <time>📅 {{ .Date.Format "2006年01月02日" }}</time>
+        <span>⏱️ {{ .ReadingTime }} 分钟阅读</span>
+        {{ if .Params.author }}
+        <span>✍️ {{ .Params.author }}</span>
+        {{ end }}
+    </div>
+    
     <h1>{{ .Title }}</h1>
-    {{ .Content }}
-</div>
+    
+    {{ if .Params.tags }}
+    <div class="post-tags" style="margin-bottom: 2rem;">
+        {{ range .Params.tags }}
+        <span class="tag">{{ . }}</span>
+        {{ end }}
+    </div>
+    {{ end }}
+    
+    <div class="article-content">
+        {{ .Content }}
+    </div>
+    
+    <hr style="margin: 3rem 0; border: none; border-top: 1px solid var(--border-color);">
+    
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+        <a href="{{ "/posts/" | relURL }}" class="btn btn-secondary" style="background: var(--bg-secondary); color: var(--text-secondary);">← 返回文章列表</a>
+        <div>
+            <a href="https://twitter.com/intent/tweet?text={{ .Title }}&url={{ .Permalink }}" target="_blank" class="btn btn-secondary" style="background: #1da1f2; color: white; margin-right: 0.5rem;">分享到 Twitter</a>
+        </div>
+    </div>
+</article>
 {{ end }}

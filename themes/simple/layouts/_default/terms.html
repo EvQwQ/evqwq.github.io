@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="container">
+    <h1>{{ .Title }}</h1>
+    
+    <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin: 2rem 0;">
+        {{ range .Data.Terms.Alphabetical }}
+        <a href="{{ .Page.RelPermalink }}" style="display: inline-flex; align-items: center; gap: 0.5rem; background: var(--bg-secondary); padding: 0.5rem 1rem; border-radius: var(--radius); text-decoration: none; color: var(--text-primary); font-weight: 500;">
+            {{ .Page.Title }}
+            <span style="background: var(--primary-color); color: white; padding: 0.1rem 0.5rem; border-radius: 9999px; font-size: 0.75rem;">{{ .Count }}</span>
+        </a>
+        {{ end }}
+    </div>
+    
+    {{ if .Pages }}
+    <h2>最新文章</h2>
+    <div class="post-list">
+        {{ range .Pages }}
+        <article class="post-card">
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <div class="post-meta">
+                <time>{{ .Date.Format "2006-01-02" }}</time>
+                <span class="reading-time">{{ .ReadingTime }} 分钟阅读</span>
+            </div>
+            <p>{{ .Summary | truncate 120 }}</p>
+        </article>
+        {{ end }}
+    </div>
+    {{ end }}
+</div>
+{{ end }}

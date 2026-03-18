@@ -4,8 +4,10 @@ title = '我的博客'
 theme = 'simple'
 
 [params]
-  author = '作者'
-  description = '一个使用 Hugo 搭建的博客'
+  author = 'EvQwQ'
+  description = '记录生活，分享技术，探索未知的世界'
+  github = 'evqwq'
+  email = 'your.email@example.com'
 
 [menu]
   [[menu.main]]
@@ -17,6 +19,32 @@ theme = 'simple'
     url = '/posts/'
     weight = 20
   [[menu.main]]
+    name = '标签'
+    url = '/tags/'
+    weight = 30
+  [[menu.main]]
     name = '关于'
     url = '/about/'
-    weight = 30
+    weight = 40
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      table = true
+      strikethrough = true
+      linkify = true
+      taskList = true
+  [markup.highlight]
+    style = "github"
+    lineNos = true
+    codeFences = true
+    guessSyntax = true
+
+[permalinks]
+  posts = "/posts/:slug/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
