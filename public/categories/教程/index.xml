@@ -1,17 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>教程 on EvQwQ 的博客</title><link>https://evqwq.github.io/categories/%E6%95%99%E7%A8%8B/</link><description>Recent content in 教程 on EvQwQ 的博客</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 18 Mar 2026 13:35:00 +0800</lastBuildDate><atom:link href="https://evqwq.github.io/categories/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown 写作指南</title><link>https://evqwq.github.io/posts/markdown-guide/</link><pubDate>Wed, 18 Mar 2026 13:35:00 +0800</pubDate><guid>https://evqwq.github.io/posts/markdown-guide/</guid><description>&lt;p&gt;Markdown 是一种轻量级标记语言，让你专注于写作而不是排版。&lt;/p&gt;
-&lt;h2 id="基础语法"&gt;基础语法&lt;/h2&gt;
-&lt;h3 id="标题"&gt;标题&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;# 一级标题
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;## 二级标题
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;### 三级标题
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="文本样式"&gt;文本样式&lt;/h3&gt;
-&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>教程 on EvQwQ 的博客</title><link>https://evqwq.github.io/categories/%E6%95%99%E7%A8%8B/</link><description>Recent content in 教程 on EvQwQ 的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 18 Mar 2026 13:35:00 +0800</lastBuildDate><atom:link href="https://evqwq.github.io/categories/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown 写作指南</title><link>https://evqwq.github.io/posts/markdown-guide/</link><pubDate>Wed, 18 Mar 2026 13:35:00 +0800</pubDate><guid>https://evqwq.github.io/posts/markdown-guide/</guid><description>&lt;p&gt;Markdown 是一种轻量级标记语言，让你专注于写作而不是排版。&lt;/p&gt;
+&lt;h2 id="基础语法"&gt;基础语法
+&lt;/h2&gt;&lt;h3 id="标题"&gt;标题
+&lt;/h3&gt;&lt;div class="highlight"&gt;&lt;div style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
+&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
+&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;# 一级标题
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;## 二级标题
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;### 三级标题
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id="文本样式"&gt;文本样式
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;粗体&lt;/strong&gt;：&lt;code&gt;**文字**&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;斜体&lt;/em&gt;：&lt;code&gt;*文字*&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;del&gt;删除线&lt;/del&gt;：&lt;code&gt;~~文字~~&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="列表"&gt;列表&lt;/h3&gt;
-&lt;p&gt;无序列表：&lt;/p&gt;
+&lt;h3 id="列表"&gt;列表
+&lt;/h3&gt;&lt;p&gt;无序列表：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;项目 1&lt;/li&gt;
 &lt;li&gt;项目 2&lt;/li&gt;
@@ -23,47 +32,58 @@
 &lt;li&gt;第二步&lt;/li&gt;
 &lt;li&gt;第三步&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id="代码"&gt;代码&lt;/h3&gt;
-&lt;p&gt;行内代码：&lt;code&gt;code&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id="代码"&gt;代码
+&lt;/h3&gt;&lt;p&gt;行内代码：&lt;code&gt;code&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;代码块：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;print(&lt;span style="color:#e6db74"&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="链接和图片"&gt;链接和图片&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://example.com"&gt;链接文字&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="%E5%9B%BE%E7%89%87%E5%9C%B0%E5%9D%80" alt="图片描述"&gt;&lt;/p&gt;
-&lt;h3 id="引用"&gt;引用&lt;/h3&gt;
-&lt;blockquote&gt;
+&lt;div class="highlight"&gt;&lt;div style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
+&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
+&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#6639ba"&gt;print&lt;/span&gt;&lt;span style="color:#1f2328"&gt;(&lt;/span&gt;&lt;span style="color:#0a3069"&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;&lt;span style="color:#1f2328"&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id="链接和图片"&gt;链接和图片
+&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="https://example.com" target="_blank" rel="noopener"
+&gt;链接文字&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://evqwq.github.io/%e5%9b%be%e7%89%87%e5%9c%b0%e5%9d%80"
+loading="lazy"
+alt="图片描述"
+&gt;&lt;/p&gt;
+&lt;h3 id="引用"&gt;引用
+&lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;这是一段引用文字。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h3 id="表格"&gt;表格&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;列1&lt;/th&gt;
- &lt;th&gt;列2&lt;/th&gt;
- &lt;th&gt;列3&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;A&lt;/td&gt;
- &lt;td&gt;B&lt;/td&gt;
- &lt;td&gt;C&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;D&lt;/td&gt;
- &lt;td&gt;E&lt;/td&gt;
- &lt;td&gt;F&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
+&lt;h3 id="表格"&gt;表格
+&lt;/h3&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;列1&lt;/th&gt;
+&lt;th&gt;列2&lt;/th&gt;
+&lt;th&gt;列3&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;B&lt;/td&gt;
+&lt;td&gt;C&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;D&lt;/td&gt;
+&lt;td&gt;E&lt;/td&gt;
+&lt;td&gt;F&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id="进阶技巧"&gt;进阶技巧&lt;/h2&gt;
-&lt;h3 id="任务列表"&gt;任务列表&lt;/h3&gt;
-&lt;ul&gt;
+&lt;h2 id="进阶技巧"&gt;进阶技巧
+&lt;/h2&gt;&lt;h3 id="任务列表"&gt;任务列表
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;input checked="" disabled="" type="checkbox"&gt; 已完成任务&lt;/li&gt;
 &lt;li&gt;&lt;input disabled="" type="checkbox"&gt; 待办任务&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="脚注"&gt;脚注&lt;/h3&gt;
-&lt;p&gt;这是一个脚注示例&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
+&lt;h3 id="脚注"&gt;脚注
+&lt;/h3&gt;&lt;p&gt;这是一个脚注示例&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref"&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
 &lt;p&gt;掌握这些语法，你就可以写出漂亮的文章了！&lt;/p&gt;
 &lt;div class="footnotes" role="doc-endnotes"&gt;
 &lt;hr&gt;
@@ -73,27 +93,79 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;</description></item><item><title>如何搭建 Hugo 博客</title><link>https://evqwq.github.io/posts/hugo-tutorial/</link><pubDate>Wed, 18 Mar 2026 13:30:00 +0800</pubDate><guid>https://evqwq.github.io/posts/hugo-tutorial/</guid><description>&lt;p&gt;本文将详细介绍如何使用 Hugo 搭建一个漂亮的博客，并部署到 GitHub Pages。&lt;/p&gt;
-&lt;h2 id="什么是-hugo"&gt;什么是 Hugo？&lt;/h2&gt;
-&lt;p&gt;Hugo 是一个用 Go 语言编写的静态网站生成器，以&lt;strong&gt;极速构建&lt;/strong&gt;著称。它使用 Markdown 格式编写内容，通过主题模板生成 HTML 页面。&lt;/p&gt;
-&lt;h2 id="安装-hugo"&gt;安装 Hugo&lt;/h2&gt;
-&lt;h3 id="windows"&gt;Windows&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;winget install Hugo.Hugo
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="macos"&gt;macOS&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;brew install hugo
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="创建新站点"&gt;创建新站点&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo new site myblog
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;cd myblog
+&lt;h2 id="什么是-hugo"&gt;什么是 Hugo？
+&lt;/h2&gt;&lt;p&gt;Hugo 是一个用 Go 语言编写的静态网站生成器，以&lt;strong&gt;极速构建&lt;/strong&gt;著称。它使用 Markdown 格式编写内容，通过主题模板生成 HTML 页面。&lt;/p&gt;
+&lt;h2 id="安装-hugo"&gt;安装 Hugo
+&lt;/h2&gt;&lt;h3 id="windows"&gt;Windows
+&lt;/h3&gt;&lt;div class="highlight"&gt;&lt;div style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
+&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
+&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;winget install Hugo.Hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id="macos"&gt;macOS
+&lt;/h3&gt;&lt;div class="highlight"&gt;&lt;div style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
+&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
+&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;brew install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="创建新站点"&gt;创建新站点
+&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
+&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
+&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo new site myblog
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#6639ba"&gt;cd&lt;/span&gt; myblog
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git init
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="添加主题"&gt;添加主题&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;echo &lt;span style="color:#e6db74"&gt;&amp;#34;theme = &amp;#39;ananke&amp;#39;&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; hugo.toml
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="创建文章"&gt;创建文章&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo new content posts/hello.md
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="本地预览"&gt;本地预览&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo server -D
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;访问 http://localhost:1313 预览。&lt;/p&gt;
-&lt;h2 id="部署到-github-pages"&gt;部署到 GitHub Pages&lt;/h2&gt;
-&lt;ol&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="添加主题"&gt;添加主题
+&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
+&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
+&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;git submodule add https://github.com/CaiJimmy/hugo-theme-stack.git themes/stack
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;然后在 &lt;code&gt;hugo.toml&lt;/code&gt; 中设置主题：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
+&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
+&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-toml" data-lang="toml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#1f2328"&gt;theme&lt;/span&gt; &lt;span style="color:#1f2328"&gt;=&lt;/span&gt; &lt;span style="color:#0a3069"&gt;&amp;#39;stack&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="创建文章"&gt;创建文章
+&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
+&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
+&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo new content posts/hello.md
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="本地预览"&gt;本地预览
+&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
+&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
+&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo server -D
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;访问 http://localhost:1313 预览。&lt;/p&gt;
+&lt;h2 id="部署到-github-pages"&gt;部署到 GitHub Pages
+&lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;创建仓库 &lt;code&gt;username.github.io&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;启用 GitHub Actions&lt;/li&gt;
 &lt;li&gt;推送代码&lt;/li&gt;

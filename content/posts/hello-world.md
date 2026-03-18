@@ -4,6 +4,8 @@ date: 2026-03-18T11:00:00+08:00
 draft: false
 categories: ["博客"]
 tags: ["hugo", "github-pages"]
+image: ""
+description: "这是我的第一篇博客文章，介绍这个使用 Hugo 构建的博客"
 ---
 
 你好！这是我的第一篇博客文章。
@@ -13,7 +15,7 @@ tags: ["hugo", "github-pages"]
 ## 特点
 
 - ⚡ **超快** - Hugo 生成速度极快，几秒钟就能构建整个网站
-- 🎨 **美观** - 简洁现代的设计，支持深色模式
+- 🎨 **美观** - 使用 Stack 主题，简洁现代
 - 📱 **响应式** - 完美适配手机、平板、电脑
 - 🏷️ **标签系统** - 文章可以添加标签，方便分类浏览
 - 📂 **分类归档** - 文章可按分类归类，便于查找
@@ -22,6 +24,7 @@ tags: ["hugo", "github-pages"]
 ## 技术栈
 
 - [Hugo](https://gohugo.io/) - 静态网站生成器
+- [Stack Theme](https://github.com/CaiJimmy/hugo-theme-stack) - 美观的 Hugo 主题
 - [GitHub Pages](https://pages.github.com/) - 免费托管
 - [GitHub Actions](https://github.com/features/actions) - 自动部署
 

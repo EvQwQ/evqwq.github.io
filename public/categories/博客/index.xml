@@ -1,29 +1,55 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>博客 on EvQwQ 的博客</title><link>https://evqwq.github.io/categories/%E5%8D%9A%E5%AE%A2/</link><description>Recent content in 博客 on EvQwQ 的博客</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 18 Mar 2026 11:00:00 +0800</lastBuildDate><atom:link href="https://evqwq.github.io/categories/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml"/><item><title>欢迎来到我的博客</title><link>https://evqwq.github.io/posts/hello-world/</link><pubDate>Wed, 18 Mar 2026 11:00:00 +0800</pubDate><guid>https://evqwq.github.io/posts/hello-world/</guid><description>&lt;p&gt;你好！这是我的第一篇博客文章。&lt;/p&gt;
-&lt;p&gt;这个博客使用 &lt;a href="https://gohugo.io/"&gt;Hugo&lt;/a&gt; 构建，并托管在 GitHub Pages 上，完全免费！&lt;/p&gt;
-&lt;h2 id="特点"&gt;特点&lt;/h2&gt;
-&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>博客 on EvQwQ 的博客</title><link>https://evqwq.github.io/categories/%E5%8D%9A%E5%AE%A2/</link><description>Recent content in 博客 on EvQwQ 的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 18 Mar 2026 11:00:00 +0800</lastBuildDate><atom:link href="https://evqwq.github.io/categories/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml"/><item><title>欢迎来到我的博客</title><link>https://evqwq.github.io/posts/hello-world/</link><pubDate>Wed, 18 Mar 2026 11:00:00 +0800</pubDate><guid>https://evqwq.github.io/posts/hello-world/</guid><description>&lt;p&gt;你好！这是我的第一篇博客文章。&lt;/p&gt;
+&lt;p&gt;这个博客使用 &lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
+&gt;Hugo&lt;/a&gt; 构建，并托管在 GitHub Pages 上，完全免费！&lt;/p&gt;
+&lt;h2 id="特点"&gt;特点
+&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;⚡ &lt;strong&gt;超快&lt;/strong&gt; - Hugo 生成速度极快，几秒钟就能构建整个网站&lt;/li&gt;
-&lt;li&gt;🎨 &lt;strong&gt;美观&lt;/strong&gt; - 简洁现代的设计，支持深色模式&lt;/li&gt;
+&lt;li&gt;🎨 &lt;strong&gt;美观&lt;/strong&gt; - 使用 Stack 主题，简洁现代&lt;/li&gt;
 &lt;li&gt;📱 &lt;strong&gt;响应式&lt;/strong&gt; - 完美适配手机、平板、电脑&lt;/li&gt;
 &lt;li&gt;🏷️ &lt;strong&gt;标签系统&lt;/strong&gt; - 文章可以添加标签，方便分类浏览&lt;/li&gt;
 &lt;li&gt;📂 &lt;strong&gt;分类归档&lt;/strong&gt; - 文章可按分类归类，便于查找&lt;/li&gt;
 &lt;li&gt;🆓 &lt;strong&gt;免费&lt;/strong&gt; - GitHub Pages 免费托管&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="技术栈"&gt;技术栈&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://gohugo.io/"&gt;Hugo&lt;/a&gt; - 静态网站生成器&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://pages.github.com/"&gt;GitHub Pages&lt;/a&gt; - 免费托管&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/features/actions"&gt;GitHub Actions&lt;/a&gt; - 自动部署&lt;/li&gt;
+&lt;h2 id="技术栈"&gt;技术栈
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
+&gt;Hugo&lt;/a&gt; - 静态网站生成器&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener"
+&gt;Stack Theme&lt;/a&gt; - 美观的 Hugo 主题&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://pages.github.com/" target="_blank" rel="noopener"
+&gt;GitHub Pages&lt;/a&gt; - 免费托管&lt;/li&gt;
+&lt;li&gt;&lt;a class="link" href="https://github.com/features/actions" target="_blank" rel="noopener"
+&gt;GitHub Actions&lt;/a&gt; - 自动部署&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="开始写作"&gt;开始写作&lt;/h2&gt;
-&lt;p&gt;创建新文章非常简单：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo new content posts/文章标题.md
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然后编辑文章，添加分类和标签：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;---
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;title&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;文章标题&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;date&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;2026-03-18T12:00:00&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;+08&lt;/span&gt;:&lt;span style="color:#ae81ff"&gt;00&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;draft&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;false&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;categories&lt;/span&gt;: [&lt;span style="color:#e6db74"&gt;&amp;#34;技术&amp;#34;&lt;/span&gt;] &lt;span style="color:#75715e"&gt;# 分类&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;tags&lt;/span&gt;: [&lt;span style="color:#e6db74"&gt;&amp;#34;hugo&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;教程&amp;#34;&lt;/span&gt;] &lt;span style="color:#75715e"&gt;# 标签&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;---
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;感谢你的访问！欢迎常来看看 👋&lt;/p&gt;</description></item></channel></rss>
+&lt;h2 id="开始写作"&gt;开始写作
+&lt;/h2&gt;&lt;p&gt;创建新文章非常简单：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
+&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
+&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo new content posts/文章标题.md
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;然后编辑文章，添加分类和标签：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;"&gt;&lt;tr&gt;&lt;td style="vertical-align:top;padding:0;margin:0;border:0;"&gt;
+&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6
+&lt;/span&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%"&gt;
+&lt;pre tabindex="0" style="background-color:#f7f7f7;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#24292e"&gt;---&lt;/span&gt;&lt;span style="color:#fff"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#0550ae"&gt;title&lt;/span&gt;&lt;span style="color:#1f2328"&gt;:&lt;/span&gt;&lt;span style="color:#fff"&gt; &lt;/span&gt;&lt;span style="color:#0a3069"&gt;&amp;#34;文章标题&amp;#34;&lt;/span&gt;&lt;span style="color:#fff"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#0550ae"&gt;date&lt;/span&gt;&lt;span style="color:#1f2328"&gt;:&lt;/span&gt;&lt;span style="color:#fff"&gt; &lt;/span&gt;2026-03-18T12:00:00&lt;span style="color:#0550ae"&gt;+08&lt;/span&gt;&lt;span style="color:#1f2328"&gt;:&lt;/span&gt;&lt;span style="color:#0550ae"&gt;00&lt;/span&gt;&lt;span style="color:#fff"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#0550ae"&gt;draft&lt;/span&gt;&lt;span style="color:#1f2328"&gt;:&lt;/span&gt;&lt;span style="color:#fff"&gt; &lt;/span&gt;&lt;span style="color:#cf222e"&gt;false&lt;/span&gt;&lt;span style="color:#fff"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#0550ae"&gt;categories&lt;/span&gt;&lt;span style="color:#1f2328"&gt;:&lt;/span&gt;&lt;span style="color:#fff"&gt; &lt;/span&gt;&lt;span style="color:#1f2328"&gt;[&lt;/span&gt;&lt;span style="color:#0a3069"&gt;&amp;#34;技术&amp;#34;&lt;/span&gt;&lt;span style="color:#1f2328"&gt;]&lt;/span&gt;&lt;span style="color:#fff"&gt; &lt;/span&gt;&lt;span style="color:#57606a"&gt;# 分类&lt;/span&gt;&lt;span style="color:#fff"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#0550ae"&gt;tags&lt;/span&gt;&lt;span style="color:#1f2328"&gt;:&lt;/span&gt;&lt;span style="color:#fff"&gt; &lt;/span&gt;&lt;span style="color:#1f2328"&gt;[&lt;/span&gt;&lt;span style="color:#0a3069"&gt;&amp;#34;hugo&amp;#34;&lt;/span&gt;&lt;span style="color:#1f2328"&gt;,&lt;/span&gt;&lt;span style="color:#fff"&gt; &lt;/span&gt;&lt;span style="color:#0a3069"&gt;&amp;#34;教程&amp;#34;&lt;/span&gt;&lt;span style="color:#1f2328"&gt;]&lt;/span&gt;&lt;span style="color:#fff"&gt; &lt;/span&gt;&lt;span style="color:#57606a"&gt;# 标签&lt;/span&gt;&lt;span style="color:#fff"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#24292e"&gt;---&lt;/span&gt;&lt;span style="color:#fff"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;感谢你的访问！欢迎常来看看 👋&lt;/p&gt;</description></item></channel></rss>

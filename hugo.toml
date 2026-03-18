@@ -1,56 +1,107 @@
 baseURL = 'https://evqwq.github.io'
 languageCode = 'zh-CN'
 title = 'EvQwQ 的博客'
-theme = 'simple'
+theme = 'stack'
 
 [params]
-  author = 'EvQwQ'
-  description = '分享技术、生活与思考'
-  avatar = ''
-  github = 'evqwq'
-  twitter = ''
+mainSections = ['posts']
+featuredImageField = 'image'
+rssFullContent = true
 
-[menu]
-  [[menu.main]]
-    name = '首页'
-    url = '/'
-    weight = 10
-  [[menu.main]]
-    name = '文章'
-    url = '/posts/'
-    weight = 20
-  [[menu.main]]
-    name = '分类'
-    url = '/categories/'
-    weight = 28
-  [[menu.main]]
-    name = '标签'
-    url = '/tags/'
-    weight = 30
-  [[menu.main]]
-    name = '归档'
-    url = '/archive/'
-    weight = 35
-  [[menu.main]]
-    name = '搜索'
-    url = '/search/'
-    weight = 38
-  [[menu.main]]
-    name = '关于'
-    url = '/about/'
-    weight = 40
+[params.footer]
+since = 2026
+
+[params.dateFormat]
+published = '2006-01-02'
+lastUpdated = '2006-01-02 15:04 MST'
+
+[params.sidebar]
+emoji = '📝'
+subtitle = '分享技术、生活与思考'
+
+[params.sidebar.avatar]
+enabled = true
+local = false
+src = ''
+
+[params.article]
+math = false
+toc = true
+readingTime = true
+
+[params.comments]
+enabled = true
+provider = 'giscus'
+
+[params.comments.giscus]
+repo = 'evqwq/evqwq.github.io'
+repoId = ''
+category = 'General'
+categoryId = ''
+mapping = 'pathname'
+reactionsEnabled = 1
+emitMetadata = 0
+
+[[menu.main]]
+identifier = 'home'
+name = '首页'
+url = '/'
+weight = -100
+
+[menu.main.params]
+icon = 'home'
+newTab = false
+
+[[menu.main]]
+identifier = 'archives'
+name = '归档'
+url = '/archives'
+weight = -90
+
+[menu.main.params]
+icon = 'archives'
+
+[[menu.main]]
+identifier = 'search'
+name = '搜索'
+url = '/search'
+weight = -80
+
+[menu.main.params]
+icon = 'search'
 
 [taxonomies]
-  tag = 'tags'
-  category = 'categories'
+tag = 'tags'
+category = 'categories'
 
-[outputs]
-  home = ['HTML', 'RSS']
-  page = ['HTML']
-  section = ['HTML', 'RSS']
+[permalinks]
+post = '/p/:slug/'
+page = '/:slug/'
 
-[outputFormats]
-  [outputFormats.RSS]
-    mediatype = 'application/rss'
-    baseName = 'index'
-    isPlainText = false
+[related]
+includeNewer = true
+threshold = 60
+toLower = false
+
+[[related.indices]]
+name = 'tags'
+weight = 100
+
+[[related.indices]]
+name = 'categories'
+weight = 200
+
+[markup]
+
+[markup.goldmark]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+style = 'github'
+lineNos = true
+codeFences = true
+guessSyntax = true
+lineNumbersInTable = true
+tabWidth = 4

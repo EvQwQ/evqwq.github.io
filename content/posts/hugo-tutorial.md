@@ -4,6 +4,7 @@ date: 2026-03-18T13:30:00+08:00
 draft: false
 categories: ["技术", "教程"]
 tags: ["hugo", "github-pages"]
+description: "详细介绍如何使用 Hugo 搭建博客并部署到 GitHub Pages"
 ---
 
 本文将详细介绍如何使用 Hugo 搭建一个漂亮的博客，并部署到 GitHub Pages。
@@ -35,8 +36,12 @@ git init
 ## 添加主题
 
 ```bash
-git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
-echo "theme = 'ananke'" >> hugo.toml
+git submodule add https://github.com/CaiJimmy/hugo-theme-stack.git themes/stack
+```
+
+然后在 `hugo.toml` 中设置主题：
+```toml
+theme = 'stack'
 ```
 
 ## 创建文章
